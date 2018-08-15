@@ -1,0 +1,89 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.heading{
+	font-weight: initial;
+	font-size:xx-large;
+	color: chocolate;
+	margin: 0px 20px;
+}
+
+.container{
+	width: 100%;height: 350px;background: #e7e3e3;margin: auto ;position: fixed;
+}
+
+.container-fluid{
+	margin-left: 30px;margin-right: 30px;background: red;
+	height: 200px;margin-top: 64px;background: #d1cbcb;border-radius: 20px;
+}
+
+.modal{
+	width: 80%; margin: 125px 132px;height: auto;background: brown;position: absolute;
+}
+
+.icon{
+	float:right;
+	font-size: xx-large;
+	color: white;
+}
+
+.modalheader{
+	width: 100%;height: 50px;background: #ff5c5c;
+}
+
+.modalbody{
+	width: 100%;height: 100px;background: white;
+}
+
+.modalfooter{
+	width: 100%;height: 50px;background: #ff5c5c;
+}
+
+.callmodal{
+	color:white;width:20%;height:45px;
+	background: #4292e0;font-size:15px;
+	border:1px solid #4292e0;margin: auto auto;
+}
+
+@media only screen and (max-device-width:480px){
+  .modal{
+  	width: 80%;
+  	margin: 74px 37px;
+  }
+   
+   .callmodal{
+   	width: 100%;
+   }
+  
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width:768px){
+  .modal{
+  	width: 80%;
+  	margin: 76px 66px;
+  }
+   
+   .callmodal{
+   	width: 30%;
+   }
+  
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
+  .modal{
+  	width: 80%;
+  	margin: 95px 89px;
+  }
+   
+  
+  
+
+}
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hjgjhgjhjjjhjh</title>
+	<link rel="stylesheet" type="text/css" href="modal.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container">
+		<div class="container-fluid" >
+			<h2 class="heading">Hello Modal call modal click this modal button</h2>
+
+			<button class="callmodal">Call & Modal</button>
+
+		</div>
+		
+	</div>
+	<div class="modal" style="">
+     <div class="modalheader" style="">Modal header<span class="far fa-times-circle icon"></span></div>
+     <div class="modalbody" style="">Modal Body</div>
+     <div class="modalfooter" style="">Modal Footer</div> 
+  </div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$(".modal").hide();
+  		$(".callmodal").click(function(){
+  			
+  			$(".container").css("opacity",".2");
+  			$(".modal").show();
+        $("body").css("background","#bca6a6");
+  		});
+
+      $(".icon").click(function(){
+        $(".modal").hide();
+        $(".container").css("opacity","");
+        $("body").css("background","");
+      });
+
+  	});
+
+  </script>
+
+</body>
+</html>
